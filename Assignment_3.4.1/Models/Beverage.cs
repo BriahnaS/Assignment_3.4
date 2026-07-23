@@ -4,11 +4,12 @@ using System.Text;
 
 namespace Assignment_3._4._1.Models
 {
-    internal class Beverage
+    internal abstract class Beverage
     {
         public bool IsIced { get; set; }
-        public int TbspSugar { get; set; }
-        public int TbspCreamer { get; set; }
-        public bool IsCarbonated { get; set; }
+        public int AddedTbspSugar { get; set; }
+        public int AddedTbspCreamer { get; set; }
+        public double? Price { get; set; }
+
     }
 }

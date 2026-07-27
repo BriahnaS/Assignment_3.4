@@ -10,7 +10,7 @@ namespace Assignment_3._4._1.Models
         public RoastType RoastType { get; set; }
         public int EspressoShots { get; set; }
         public string? Style { get; set; }
-        public string? MilkType { get; set; }
+        public MilkType MilkType { get; set; }
         public bool ColdFoam { get; set; }
 
     }

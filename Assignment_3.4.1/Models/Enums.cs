@@ -22,5 +22,14 @@ namespace Assignment_3._4._1.Models
         Dark,
     }
 
+    public enum MilkType
+    {
+        Whole,
+        TwoPercent,
+        Oat,
+        Almond,
+        Soy,
+        Skim,
+    }
    
 }
